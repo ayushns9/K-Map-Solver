@@ -2,14 +2,12 @@
 # K-Map Minimization 
 # Name: AYUSH GOEL
 # Roll Number: 2018029
-# Section: A
 # Group: 5
+# Section: A
 # Date: 17/10/2018
 
 import unittest
 from HW2_2018xxx import minFunc
-
-
 
 class testpoint(unittest.TestCase):
 	#test1
