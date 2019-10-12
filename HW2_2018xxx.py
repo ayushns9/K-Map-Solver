@@ -84,11 +84,11 @@ def bitcount(a,b):
 		This function counts the number of bits different in two binary numbers.
 		Input: 2 strings 
 	"""
-	count=0
+	count=1
 	for i in range(len(a)):
 		if(a[i]!=b[i]):
 			count+=1
-	return count
+	return count-1
 def bitchange(a,b):
 	c=''
 	for i in range(len(a)):
@@ -444,11 +444,11 @@ def minFunc(numVar, stringIn):
 			stringOut=givefinalans2(fepi)
 
 	elif(numVar==1):
-		dig=0
+		dig=1
 		for i in stringIn:
 			if(i.isdigit()):
 				dig+=1
-		if(dig==0):
+		if(dig==1):
 			stringOut='0'
 		elif(stringIn=='(a1)'):
 			stringOut='z'
